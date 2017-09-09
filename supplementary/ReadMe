@@ -1,0 +1,56 @@
+
+=======  Evaluation of the most significant N-grams for past, present, and future tenses using mean reciprocal rank (MRR) ==========
+
+For ten languages: Arabic, Chinese, English, French, German, Italian, Persian, Polish, Russian, Spanish
+we evaluated the significance of top-10 N-grams (2 < n < 6) for each of past, present, and future tenses.
+
+Three separate file for each past, present, and future tense are provided.
+
+mrr_past.pdf:
+The MRR evaluation for past tense
+
+mrr_past.pdf:
+The MRR evaluation for present tense
+
+mrr_future.pdf:
+The MRR evaluation for future tense
+
+Columns in each file are the following:
+
+Language: Language name
+Rank: Ranking of the N-gram in term of its significance estimated using Chi-Square score
+N: Number of characters within the subtext (N in N-gram)
+N-gram: The character N-gram within the language
+Score: Chi-Square score
+Dir.: This column indicates whether it is a high positive correlation between the N-gram and the tense or negative
+Frequent Tokens: The top-5 frequent tokens give rise to generation of this N-gram
+Reciprocal rank: 1 over the first rank that is identified by the annotator to be relevant to each tense.
+
+
+
+======= Tense Maps for Present and Future Tense =====================================================
+
+Similar to Figure 1 we have generated tense maps for present and future as well.
+
+for present:
+present_map.pdf
+Using markers in afr, isl, pap, rro, and urd languages
+
+For future:
+future_map.pdf
+Using markers in klv, msa, quc, tpi, and tte languages
+
+
+
+======= The calculated most significant using Chi-square ======================================================================
+
+Past tense:
+past_chisquare.txt
+
+Present tense:
+present_chisquare.txt
+
+Future tense:
+future_chisquare.txt
+
+=======================================================================================================
